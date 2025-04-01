@@ -10,7 +10,7 @@ pipeline {
         stage('git') {
             steps {
                 echo 'scm'
-				git branch: 'main', url: 'https://github.com/devopstraininghub/mindcircuit13.git'
+				git branch: 'main', url: 'https://github.com/manidev1996/MC13BatchCode.git'
             }
         }
 		
